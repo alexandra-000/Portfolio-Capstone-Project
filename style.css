@@ -19,34 +19,44 @@ body {
 }
 
 .header-row {
-    padding: 24px 0;
+  padding: 24px 0;
+  border-bottom: 1px solid #d5d9e0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
 }
 
-hr {
-    margin: 20px 0 0 0;
+.hero-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  gap: 48px;
+}
 
+.hero-layout h1 {
+  font-size: 68px;
+  font-weight: 800;
+  line-height: 1.1;
 }
 
 .navname {
-    float: left;
-    padding: 10px 0;
-    text-decoration: none;
+  padding: 10px 0;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight:800;
+  color: #315bfa;
 }
 
 .navbar ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    justify-content: flex-end;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-links li a{
-    padding: 10px;
-    float: right;
-    text-decoration: none;
+  padding: 10px;
+  text-decoration: none;
 }
-
-
-/* Media Queries */
 
 
